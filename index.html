@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Популярные игры</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="normalize-min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <main class="page-main">
+      <div class="page-main__wrapper">
+        <h1 class="page-main__title">Популярные игры</h1>
+        <div class="games">
+          <article class="games__item item-fortnite">
+            <a class="games__link" href="#">
+              <picture>
+                <source type="image/webp" media="(min-width: 1280px)" srcset="img/fortnite-desktop.webp">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/fortnite-tablet.webp">
+                <source type="image/webp" srcset="img/fortnite-mobile.webp">
+
+                <source media="(min-width: 1280px)" srcset="img/fortnite-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/fortnite-tablet.png">
+                <img class="games__img" src="img/fortnite-mobile.png" alt="Игра «Fortnite»">
+              </picture>
+              <div class="games__title-wrapper">
+                <p class="games__title">Fortnite</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="games__item item-lol">
+            <a class="games__link" href="#">
+              <picture>
+                <source type="image/webp" media="(min-width: 1280px)" srcset="img/lol-desktop.webp">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/lol-tablet.webp">
+                <source type="image/webp" srcset="img/lol-mobile.webp">
+
+                <source media="(min-width: 1280px)" srcset="img/lol-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/lol-tablet.png">
+                <img class="games__img" src="img/lol-mobile.png" alt="Игра «League of Legends»">
+              </picture>
+              <div class="games__title-wrapper">
+                <p class="games__title">League of Legends</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="games__item item-player">
+            <a class="games__link" href="#">
+              <picture>
+                <source type="image/webp" media="(min-width: 1280px)" srcset="img/player-desktop.webp">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/player-tablet.webp">
+                <source type="image/webp" srcset="img/player-mobile.webp">
+
+                <source media="(min-width: 1280px)" srcset="img/player-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/player-tablet.png">
+                <img class="games__img" src="img/player-mobile.png" alt="Игра «Playerunknown's battleground»">
+              </picture>
+              <div class="games__title-wrapper">
+                <p class="games__title title-player">Playerunknown's battleground</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="games__item item-gta">
+            <a class="games__link" href="#">
+              <picture>
+                <source type="image/webp" media="(min-width: 1280px)" srcset="img/gta-desktop.webp">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/gta-tablet.webp">
+                <source type="image/webp" srcset="img/gta-mobile.webp">
+
+                <source media="(min-width: 1280px)" srcset="img/gta-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/gta-tablet.png">
+                <img class="games__img" src="img/gta-mobile.png" alt="Игра «Grand Theft Auto V»">
+              </picture>
+              <div class="games__title-wrapper">
+                <p class="games__title">Grand Theft Auto V</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="games__item item-overwatch">
+            <a class="games__link" href="#">
+              <picture>
+                <source type="image/webp" media="(min-width: 1280px)" srcset="img/overwatch-desktop.webp">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/overwatch-tablet.webp">
+                <source type="image/webp" srcset="img/overwatch-mobile.webp">
+
+                <source media="(min-width: 1280px)" srcset="img/overwatch-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/overwatch-tablet.png">
+                <img class="games__img" src="img/overwatch-mobile.png" alt="Игра «Overwatch»">
+              </picture>
+              <div class="games__title-wrapper">
+                <p class="games__title">Overwatch</p>
+              </div>
+            </a>
+          </article>
+
+          <article class="games__item item-apex">
+            <a class="games__link" href="#">
+              <picture>
+                <source type="image/webp" media="(min-width: 1280px)" srcset="img/apex-desktop.webp">
+                <source type="image/webp" media="(min-width: 768px)" srcset="img/apex-tablet.webp">
+                <source type="image/webp" srcset="img/apex-mobile.webp">
+
+                <source media="(min-width: 1280px)" srcset="img/apex-desktop.png">
+                <source media="(min-width: 768px)" srcset="img/apex-tablet.png">
+                <img class="games__img" src="img/apex-mobile.png" alt="Игра «Apex Legends»">
+              </picture>
+              <div class="games__title-wrapper">
+                <p class="games__title">Apex Legends</p>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="slider">
+          <a class="slider__control slider__control--left">
+            <svg class="slider__arrow slider__arrow--left" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.175 477.175"><path d="M145.188 238.575l215.5-215.5c5.3-5.3 5.3-13.8 0-19.1s-13.8-5.3-19.1 0l-225.1 225.1c-5.3 5.3-5.3 13.8 0 19.1l225.1 225c2.6 2.6 6.1 4 9.5 4s6.9-1.3 9.5-4c5.3-5.3 5.3-13.8 0-19.1l-215.4-215.5z"></path></svg>
+          </a>
+          <div class="slider__circle circle-1"></div>
+          <div class="slider__circle circle-2"></div>
+          <div class="slider__circle circle-3"></div>
+          <div class="slider__circle circle-4"></div>
+          <div class="slider__circle circle-5"></div>
+          <div class="slider__circle circle-6"></div>
+          <div class="slider__circle circle-7"></div>
+          <a class="slider__control slider__control--right">
+            <svg class="slider__arrow slider__arrow--right" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 477.175 477.175"><path d="M360.731 229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1 0s-5.3 13.8 0 19.1l215.5 215.5-215.5 215.5c-5.3 5.3-5.3 13.8 0 19.1 2.6 2.6 6.1 4 9.5 4 3.4 0 6.9-1.3 9.5-4l225.1-225.1c5.3-5.2 5.3-13.8.1-19z"></path></svg>
+          </a>
+        </div>
+      </div>
+    </main>
+    <script src="js/picturefill.js"></script>
+  </body>
+</html>
